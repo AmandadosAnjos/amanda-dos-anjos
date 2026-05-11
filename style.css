@@ -1,0 +1,28 @@
+.identificação {
+    background-color: rgb(red, green, blue)
+}
+
+.img {
+    width: 50%;
+}
+
+body {
+    background-color: rgb(red, green, blue);
+    color-scheme: azure;
+    display: flex;
+    align-items: baseline;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    margin: 20px;
+    padding: 20px;
+    background: azure;
+    color: pink;
+}
+
+    ;
