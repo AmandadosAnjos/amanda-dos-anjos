@@ -1,0 +1,29 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --green-dark:  #3a6b35;
+            --green-mid:   #5a9e4b;
+            --green-light: #a8d08d;
+            --cream:       #f5f0e6;
+            --text-body:   #4a5540;
+            --border-dash: #b8d4a0;
+        }
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-color: var(--cream);
+            color: var(--text-body);
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        .hero-img,
+        .about-img {
+            width: 100%;
+            display: block;
+        }
+
+        .footer-bar {
+            height: 18px;
+            background: var(--green-dark);
+        }
